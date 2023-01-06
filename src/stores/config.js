@@ -70,8 +70,7 @@ export const MainMenuConfig = writable(mainMenuConfig);
 			items: [
 				{ name: 'Home', type: 'route', href: '/' },
 				{ name: 'About', type: 'route', href: '/about' },
-                { name: 'Github', type: 'link', href: 'https://github.com/numberthink/starter' },
-				// { name: 'Blog', type: 'route', href: '/blog'},
+                { name: 'Github', type: 'link', href: 'https://github.com/numberthink/svelte-template' },
 			]
 		},
 	]
