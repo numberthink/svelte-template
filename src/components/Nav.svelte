@@ -2,7 +2,6 @@
 	import { MainMenuConfig } from '../stores/config.js';
 	import MobileMenu from '../components/MobileMenu.svelte';
 	import { page } from '$app/stores';
-	import {Settings} from '../stores/settings.js';
 	
 </script>
 
@@ -15,7 +14,7 @@
 	>
 		<ul id="navMainMenu" class="ml-[0rem] flex">
 			{#each $MainMenuConfig.options as menuOption}
-			{#if !menuOption?.hidden || $Settings.secret.fullSite}
+			{#if !menuOption?.hidden}
 				<li>
 					<a
 						class="hover:text-gray-200 hover:bg-black relative z-10 hidden rounded-lg

@@ -1,18 +1,11 @@
 <script>
 	import { FooterMenuConfig } from '../stores/config.js';
 </script>
-<style>
-    .twoColumns {
-        @apply grid-cols-2;
-    }
-</style>
+
 <div
 	id="footerWrapper"
-	class="backdrop-blur bg-opacity-70 bg-gray-800 relative mt-12 min-w-full border-t border-gray-600"
+	class="backdrop-blur bg-opacity-70 bg-gray-800 relative mt-12 min-w-full "
 >
-	<p id="madeWithLove" class="min-w-full text-center py-4 text-gray-400">
-		Made with &#10084; in Philly
-	</p>
 	<footer class="relative mx-auto flex max-w-2xl flex-col items-center justify-center">
 		<hr class=" my-0 border-1 border-gray-600 mb-8 w-full" />
 		<div class="grid w-full grid-cols-1 gap-4 px-4 pb-16 text-center sm:px-8"

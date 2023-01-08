@@ -1,6 +1,5 @@
 <script>
 	import { MainMenuConfig } from '../stores/config.js';
-	import { Settings} from '../stores/settings.js';
 	import { onMount } from 'svelte';
 
 	let menuOpen = false;
@@ -38,7 +37,7 @@ rounded-md text-2xl pb-8 bg-gray-800 pr-4 sm:pr-12"
 			class:hidden={!mounted}
 		>
 			{#each $MainMenuConfig.options as menuOption}
-			{#if !menuOption?.hidden || $Settings.secret.fullSite}
+			{#if !menuOption?.hidden}
 				<li
 					class="border-gray-200 text-gray-300 border-b
 font-semibold mx-8"
