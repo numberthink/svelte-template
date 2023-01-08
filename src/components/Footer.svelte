@@ -1,7 +1,11 @@
 <script>
 	import { FooterMenuConfig } from '../stores/config.js';
 </script>
-
+<style>
+    .twoColumns {
+        @apply grid-cols-2;
+    }
+</style>
 <div
 	id="footerWrapper"
 	class="backdrop-blur bg-opacity-70 bg-gray-800 relative mt-12 min-w-full "

@@ -1,6 +1,6 @@
 # A simple Svelte-kit starter template
 
-A skeleton Svelte project starter created with [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A Svelte project starter created with [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
 ## Features
 
@@ -14,7 +14,25 @@ Comes with a few built-in features including:
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Step 1: Clone project
+
+Create an empty folder for your project and then clone this repo into it. You can do so by running this command from your project folder:
+
+```bash
+npx degit https://github.com/numberthink/svelte-template
+```
+
+### Step 2: Install dependencies
+
+You can install the dependencies with `npm install` (or `pnpm install` or `yarn`):
+
+```bash
+npm install
+```
+
+### Step 3: Run the app locally
+
+To run your project locally:
 
 ```bash
 npm run dev
@@ -32,5 +50,7 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+By default, this generates a static version of your site. If you want to use a different adapter (e.g. for sever-side rendering), you will have to install that adapter. You can read more on Svelte adapters [here](https://kit.svelte.dev/docs/adapters). 
 
 
